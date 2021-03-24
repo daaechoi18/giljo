@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--[if lt IE8]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha512-UDJtJXfzfsiPPgnI5S1000FPLBHMhvzAMX15I+qG2E2OAzC9P1JzUwJOfnypXiOH7MRPaqzhPbBGDNNj7zBfoA==" crossorigin="anonymous"></script>
+  <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="hotel giljo">
+  <meta name="keywords" content="hotel,hotel giljo,giljo,호텔,호텔 길조,길조 호텔,길조,료칸,다다미 호텔,국내 료칸">
+  <meta name="description" content="hotel giljo">
+  <meta name="copyright" content="hotel giljo">
+  <!-- og -->
+  <meta property="og:title" content="길조호텔">
+  <meta property="og:url" content="https://duwkrladlf.dothome.co.kr/giljo">
+  <meta property="og:image" content="./img/ogimage.png">
+  <meta property="og:description" content="편백향이 그윽한 호텔, 길조 吉兆">
+  <!-- twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="길조호텔">
+  <meta name="twitter:url" content="https://duwkrladlf.dothome.co.kr/giljo">
+  <meta name="twitter:image" content="./img/ogimage.png">
+  <meta name="twitter:description" content="편백향이 그윽한 호텔, 길조 吉兆">
+  <title>HOTEL 吉兆</title>
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/reset.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/ui.min.css">
+  <link rel="stylesheet" href="./css/index.min.css">
+</head>
+<body>
+  <div class="skip">
+    <a href="#room">객실 사진 바로가기</a>
+    <a href="#booking">예약 안내 바로가기</a>
+    <a href="#map">호텔 위치 바로가기</a>
+  </div>  
+  <section class="wrap">
+    
+    <div class="login_form">
+      <div class="btn_login_close" id="login_close">
+        <i class="fas fa-times close"></i>
+      </div>      
+      <div class="login_container">
+      <h2>로그인</h2>
+        <form>
+          <input type="text" id="user_id" placeholder="아이디를 입력하세요">
+          <input type="password" placeholder="비밀번호를 입력하세요">
+          <label for="save_id"><input type="checkbox" checked id="save_id"> 아이디 저장하기</label>
+          <button type="button" id="btn_login">로그인</button>
+        </form>
+        <ul class="link">
+          <li>
+            <a href="#">ID/PW찾기</a>
+          </li>
+          <li>
+            <a href="#">회원가입</a>
+          </li>
+          <li>
+            <a href="#">비회원예약확인</a>
+          </li>
+        </ul>        
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="container">
+        <h1 class="logo" title="메인 페이지로 가기">
+          <a href="index.html"><img src="./img/logo.png" alt="길조 호텔 로고"></a>
+        </h1>
+        <div class="btn_nav_open" title="메뉴 보기">
+          <i class="fas fa-bars bars active"></i>
+          <i class="fas fa-times close"></i>
+        </div>
+        <nav>
+          <div class="nav_container">
+            <ul class="main_menu ">
+              <li><a href="#">호텔 소개</a></li>
+              <li><a href="#">Room View</a></li>
+              <li><a href="#">호텔 갤러리</a></li>
+              <li><a href="#">예약 안내</a></li>
+              <li><a href="#">오시는 길</a></li>
+              <li><a href="#">공지사항</a></li>
+              <li><span id="login">로그인</span></li>
+            </ul>
+            <div class="nav_faq">
+              <div class="faq_img">
+                <img src="./img/faq.png" alt="문의 아이콘">
+              </div>
+              <div class="faq_txt">
+                <h3 class="faq_tit">문의전화</h3>
+                <p>터치해서 전화하기</p>
+                <div class="faq_num">
+                  <a href="tel:031-774-7019" class="num01">031-774-7019</a>
+                  <a href="tel:031-774-7020" class="num02">031-774-7020</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="section intro">
+      <div class="container">
+        <div class="slider">
+          <ul class="slides">
+            <li class="slide slide01"> 
+              <div class="slide_content">
+                <p class="slide_txt">
+                  청명한 하늘과<br>
+                  편백향이 그윽한 호텔
+                </p>
+              </div>
+            </li>
+            <li class="slide slide02">
+              <div class="slide_content">
+                <p class="slide_txt">
+                  일본식 전통 료칸을<br>
+                  모티브로 지어진 호텔 길조
+                </p>
+              </div>
+            </li>
+            <li class="slide slide03">
+              <div class="slide_content">
+                <p class="slide_txt">
+                  각 객실에 다다미 방과<br>
+                  편백나무(히노끼)탕 구비
+                </p>
+              </div>
+            </li>
+            <li class="slide slide04">
+              <div class="slide_content">
+                <p class="slide_txt">
+                  아름다운 풍경과 함께<br>
+                  여유로운 휴식을
+                </p>
+              </div>
+            </li>
+          </ul>
+          <div class="btn_next_prev">
+            <div class="btn_prev" id="prev"><i class="fas fa-chevron-left"></i></div>
+            <div class="btn_next" id="next"><i class="fas fa-chevron-right"></i></div>
+          </div>
+          <ul class="slider_pagination">
+            <li class="pagination active" id="pagination0">1</li>
+            <li class="pagination" id="pagination1">2</li>
+            <li class="pagination" id="pagination2">3</li>
+            <li class="pagination" id="pagination3">4</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section room" id="room">
+      <div class="container">
+        <div class="room_top">
+          <h2 class="sec_tit">Room View</h2>
+          <p class="sec_txt">사진을 누르시면<br>더 많은 객실 사진을 볼 수 있습니다.</p>
+        </div>
+        <article class="room_list">
+          <ul class="room_row">
+            <li>
+              <ul class="room_col room_col01">
+                <li>
+                  <div class="room_img">
+                    <img src="./img/room01.png" alt="No.201">
+                  </div>
+                  <div class="room_over">
+                    <h3 class="room_num">- 201 -</h3>
+                    <a href="#" title="객실 뷰 더 보러 가기">
+                      MORE
+                      <i class="fas fa-chevron-right"></i>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="room_img">
+                    <img src="./img/room02.png" alt="No.202">
+                  </div>
+                  <div class="room_over">
+                    <h3 class="room_num">- 202 -</h3>
+                    <a href="#" title="객실 뷰 더 보러 가기">
+                      MORE
+                      <i class="fas fa-chevron-right"></i>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul class="room_col room_col02">
+                <li>
+                  <div class="room_img">
+                    <img src="./img/room03.png" alt="No.301">
+                  </div>
+                  <div class="room_over">
+                    <h3 class="room_num">- 301 -</h3>
+                    <a href="#" title="객실 뷰 더 보러 가기">
+                      MORE
+                      <i class="fas fa-chevron-right"></i>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="room_img">
+                    <img src="./img/room04.png" alt="No.302">
+                  </div>
+                  <div class="room_over">
+                    <h3 class="room_num">- 302 -</h3>
+                    <a href="#" title="객실 뷰 더 보러 가기">
+                      MORE
+                      <i class="fas fa-chevron-right"></i>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul class="room_col room_col03">
+                <li>
+                  <div class="room_img">
+                    <img src="./img/room05.png" alt="No.401">
+                  </div>
+                  <div class="room_over">
+                    <h3 class="room_num">- 401 -</h3>
+                    <a href="#" title="객실 뷰 더 보러 가기">
+                      MORE
+                      <i class="fas fa-chevron-right"></i>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="room_img">
+                    <img src="./img/room06.png" alt="No.402">
+                  </div>
+                  <div class="room_over">
+                    <h3 class="room_num">- 402 -</h3>
+                    <a href="#" title="객실 뷰 더 보러 가기">
+                      MORE
+                      <i class="fas fa-chevron-right"></i>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+    <article class="sec_wrap">
+      <section class="section booking" id="booking">
+        <div class="container">
+          <h2 class="sec_tit">예약 안내</h2>
+          <a href="#">요금 및 상세안내 보러가기 <i class="fas fa-chevron-right"></i></a>
+          <div class="booking_info">
+            <div class="booking_tel_txt">
+              <p class="booking_tel"><i class="far fa-question-circle"></i> 예약문의 : 031-774-7019</p>
+              <p class="booking_txt"> 예약신청은 예약금 전액을 입금하셔야 완료됩니다.</p>
+              <p class="booking_txt">
+                예약신청을 기점으로 12시간 내에 입금을 원칙으로 하며, 미입금시 자동으로 취소처리 됩니다.</p>
+            </div>
+            <div class="booking_cancel">
+              <p>
+                고객의 사정에 따라 예약을 <span>취소</span>하거나 <span>날짜를 변경</span>하는 경우<br>
+                환불규정에 따라 <span>위약금이 부과</span>되오니 신중히 예약해주시길 바랍니다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section map" id="map">
+        <div class="container">
+          <h2 class="sec_tit">오시는 길</h2>
+          <div class="map_address_tel">
+              <p><i class="fas fa-map-marker-alt"></i> 주소: 경기도 양평군 강상면 병산리 181-4</p>
+              <p><i class="fas fa-phone-alt"></i> 고객센터 : 031-774-7019 / 031-774-7020</p>
+          </div>
+            <div class="map_iframe">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.6049007007264!2d127.47129231510384!3d37.49364897981163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3563474a5cae91b3%3A0x472c961d588b9d52!2z6ri47KGw7Zi47YWU!5e0!3m2!1sko!2skr!4v1616047355425!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+      </section>
+    </article>
+    <footer class="footer">
+      <div class="container">
+        <address class="address">
+            <p>상호 : 길조(吉兆)&nbsp;&nbsp;대표자 : 이종표&nbsp;사업자번호 : 532-08-00876</p>
+            <p>예약문의 : 031-774-7019,&nbsp;&nbsp;031-774-7020,&nbsp;&nbsp;FAX : 031-774-7018</p>
+            
+            <p>통신판매업신고번호 : 제2014-경기양평-0154호</p>
+            <p>주소 : 경기도 양평군 강상면 병산리 181-4</p>
+            <p>Copyright © www.giljo.co.kr All rights reserved.</p>
+        </address>       
+        <div class="footer_logo">
+          <img src="./img/footer_logo.png" alt="길조호텔">
+        </div>
+      </div>              
+    </footer>    
+  </section>
+  <script src="./js/prefixfree.min.js"></script>
+  <script src="./js/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+  <script src="./js/basic.min.js"></script>
+  <script src="./js/index_slider.min.js"></script>   
+</body>
+</html>
